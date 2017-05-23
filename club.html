@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>rClub | Root</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+		<link rel="shorcut icon" type ="image/png" href="assets/media/favicon.png">
+	</head>
+
+	<body>
+		<a href="index.html">
+				<picture>
+						<source media="(min-width: 1051px)" srcset="assets/media/logo.png"/>
+						<source media="(min-width: 736px) and (max-width: 1050px)" srcset="assets/media/logo_medium.png"/>
+						<source media="(min-width: 50px) and (max-width: 735px)" srcset="assets/media/logo.png"/>
+						<img src="assets/media/logo.png" alt="Root Logo" id="logo"/>
+		        </picture>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li class="selected"><a href="club.html">rClub</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="reservation.html">Reservation</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<picture>
+					<source media="(min-width: 1051px)" srcset="assets/media/club_large.jpg"/>
+					<source media="(min-width: 736px) and (max-width: 1050px)" srcset="assets/media/club_medium.jpg"/>
+					<source media="(min-width: 50px) and (max-width: 735px)" srcset="assets/media/club_small.jpg"/>
+					<img src="assets/media/club_large.jpg" alt="rClub Banner. Photo found on Elle Penner, M.P.H.,R.D.'s post on myfitnesspal.com" width="100%" height="100%"/>
+		    </picture>
+
+			<div class="info">
+				<h1>rClub</h1>
+				<p>rClub is our loyalty program that provides extra offers to customers that join. Register your email and birthday to receive details on specials before anyone else. It’s completely free and anyone can sign up and any time!</p>
+				<p>Root offers birthday specials for customers. Ask us about our anniversary deals and keep an eye out in your inbox for our deals.</p>
+
+				<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<label for="name">Name:</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="21" placeholder="John Smith" required/><br />
+					</div>
+
+					<div class="row">
+						<label for="bday">Birthday:</label><br />
+						<input id="birth" class="input" name="bday" type="date" value="" size="21" placeholder="mm/dd/yyyy" /><br />
+					</div> 
+
+					<div class="row">
+						<label for="email">Email:</label><br />
+						<input id="email" class="click" name="email" type="email" value="" size="21" placeholder="example@yahoo.com" required/><br />
+					</div>
+
+					<input id="submit_button" type="submit" value="Join rClub"/>
+				</form>
+
+			</div>
+		</main>
+		
+		<footer>
+			<span id="copyright">&copy; Southwest CTA | Shannon Kim & Emerald Liu</span>
+		</footer>
+
+	</body>
+	
+</html>

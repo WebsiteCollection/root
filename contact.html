@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact | Root</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+		<link rel="shorcut icon" type ="image/png" href="assets/media/favicon.png">
+	</head>
+
+	<body>
+		<a href="index.html">
+				<picture>
+						<source media="(min-width: 1051px)" srcset="assets/media/logo.png"/>
+						<source media="(min-width: 736px) and (max-width: 1050px)" srcset="assets/media/logo_medium.png"/>
+						<source media="(min-width: 50px) and (max-width: 735px)" srcset="assets/media/logo.png"/>
+						<img src="assets/media/logo.png" alt="Root Logo" id="logo"/>
+		        </picture>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="club.html">rClub</a></li>
+				<li class="selected"><a href="contact.html">Contact</a></li>
+				<li><a href="reservation.html">Reservation</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<picture>
+					<source media="(min-width: 1051px)" srcset="assets/media/contact_large.jpg"/>
+					<source media="(min-width: 736px) and (max-width: 1050px)" srcset="assets/media/contact_medium.jpg"/>
+					<source media="(min-width: 50px) and (max-width: 735px)" srcset="assets/media/contact_small.jpg"/>
+					<img src="assets/media/contact_large.jpg" alt="Contact banner. Photo by Marcin Ratajczak" width="100%" height="100%"/>
+		    </picture>
+
+			<div class="info">
+				<div id="store-info">
+					<h2 class="side-nav">Hours of Operation</h2>
+						<ul>
+							<li class="days">Monday - Thursday:</li>
+							<li>10:00 a.m - 9:00 p.m</li>
+							<li class="days">Friday - Saturday: </li> 
+							<li class="time">10:00 a.m - 10:00 p.m</li>
+							<li class="days">Sunday: </li>
+							<li class="time">10:00 a.m - 6:00 p.m</li>
+							<li><img src="assets/media/map.png" alt="Map icon" id="map"><br />9871 Baker Street, NY</li>
+						</ul>
+					<h2 class="side-nav">Follow Us</h2>
+						<ul id="socials">
+
+							<li><a class="links" target="_blank" href="http://www.facebook.com/root.gluten-wheat-free"><img src="assets/media/fb.png" alt="Facebook icon">Facebook</a></li>
+							<li><a class="links" target="_blank" href="http://www.twitter.com/root.gluten-wheat-free"><img src="assets/media/tw.png" alt="Twitter icon">Twitter</a></li>
+							<li><a class="links" target="_blank" href="http://www.yelp.com/root.gluten-wheat-free"><img src="assets/media/yelp.png" alt="Yelp icon">Yelp</a></li>
+						</ul>
+				</div>
+				
+				<div id="contact-left">
+					<h1>Contact</h1>
+						<p>If you have any concerns, please contact <a class="links" target="_blank" href="tel:702-875-1247">123-456-7890</a> or email <a class="links" target="_blank" href="mailto:customerhelp@root.com">customerhelp@root.com</a></p> 
+
+					<h2 id="ask-review">Would You Like to Review Root?</h2>
+
+						<p>Please fill out the form below.</p>
+
+					<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+						<div class="row">
+							<label for="name">Name:</label><br />
+							<input id="name" class="input" name="name" type="text" value="" size="22" placeholder="John Smith" /><br />
+						</div>
+						<div class="row">
+							<label for="email">Email:</label><br />
+							<input id="email" class="input" name="email" type="email" value="" size="22" placeholder="example@yahoo.com" required/><br />
+						</div>
+						<div class="row">
+							<label for="message">Message:</label><br />
+							<textarea id="message" class="input" name="message" rows="7" cols="22" placeholder="Please leave a message." required></textarea><br />
+						</div>
+						<input id="submit_button" type="submit" value="Send message"/>
+					</form>
+				</div>
+			</div>
+		</main>
+		
+		<footer>
+			<span id="copyright">&copy; Southwest CTA | Shannon Kim & Emerald Liu</span>
+		</footer>
+
+	</body>
+
+</html>
